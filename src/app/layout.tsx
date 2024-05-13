@@ -1,10 +1,10 @@
-import React, { useEffect } from 'react';
-import { Toaster } from 'react-hot-toast';
-import { TailwindIndicator } from '@/components/tailwind-indicator';
-import { Providers } from '@/components/providers';
-import { Header } from '@/components/header';
+import { Metadata } from 'next'
+import { Toaster } from 'react-hot-toast'
+import { TailwindIndicator } from '@/components/tailwind-indicator'
+import { Providers } from '@/components/providers'
+import { Header } from '@/components/header'
 
-import '@/app/globals.scss';
+import '@/app/globals.scss'
 
 export const metadata: Metadata = {
   title: {
